@@ -2,6 +2,9 @@ cff-version: 1.2.0
 message: "If you use this software or dataset, please cite the associated LARS-B+ study and the archived release."
 title: "LARS-B+ Reproducibility Package"
 type: software
+version: "1.0.0"
+repository-code: "https://github.com/srfalah/LARS-BPlus"
+license: MIT
 authors:
   - family-names: "Alfalah"
     given-names: "Sultan"
