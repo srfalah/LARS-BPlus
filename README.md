@@ -6,7 +6,8 @@ This repository preserves the frozen source code, publication datasets, analysis
 
 **Author:** Sultan Alfalah  
 **ORCID:** https://orcid.org/0009-0005-3240-9446  
-**Affiliation:** Department of Computer Science, College of Computer and Information Sciences, Jouf University, Sakaka, Saudi Arabia
+**Affiliation:** Department of Computer Science, College of Computer and Information Sciences, Jouf University, Sakaka, Saudi Arabia  
+**Repository:** https://github.com/srfalah/LARS-BPlus
 
 ## Contents
 
@@ -84,4 +85,4 @@ The YCSB extension is YCSB-derived rather than a full database-binding conforman
 
 ## License
 
-No software or data license is asserted in this release. A license should be added only if the author explicitly chooses one.
+The software in this repository is released under the **MIT License**. See `LICENSE`.
