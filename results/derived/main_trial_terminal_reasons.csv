@@ -1,0 +1,7 @@
+outcome,reason,count
+COMMIT,trial acceptance rule satisfied,35
+ROLLBACK,minimum net-gain threshold not met,7
+ROLLBACK,tail-latency guard failed,7
+ROLLBACK,trial censored at PHASE_BOUNDARY before a terminal live-trial decision,12
+ROLLBACK,trial censored at RUN_END before a terminal live-trial decision,18
+ROLLBACK,workload drift remained above threshold at maximum trial length,2

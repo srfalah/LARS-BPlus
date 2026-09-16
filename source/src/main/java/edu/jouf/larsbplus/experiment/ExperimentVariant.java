@@ -1,0 +1,14 @@
+package edu.jouf.larsbplus.experiment;
+
+public enum ExperimentVariant {
+    STATIC_BPLUS,
+    PERIODIC_GLOBAL_REBUILD,
+    THRESHOLD_GLOBAL_REBUILD,
+    LOCAL_COST_ADAPTIVE,
+    LARS_MONITOR_ONLY,
+    LARS_FULL,
+    LARS_NO_DIAGNOSIS,
+    LARS_NO_LOCALITY,
+    LARS_NO_RUNTIME_VALIDATION,
+    LARS_NO_ROLLBACK
+}

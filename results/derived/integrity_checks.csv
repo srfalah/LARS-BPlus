@@ -1,0 +1,77 @@
+check,passed,detail
+main table counts,True,"[730, 21520, 2385, 1064]"
+main run uniqueness,True,campaign/workload/variant/repetition/seed
+main primary finite positive,True,730 rows
+main event uniqueness,True,2385
+main regional-policy terminal counts,True,includes immediate/kept outcomes; global rebuild COMMIT events do not represent trials
+global rebuild outcomes,True,global COMMIT counts reconcile to structural attempts
+post parent linkage,True,1064
+post phase linkage,True,1064
+main factorial cells,True,7 workloads x 10 variants x 10 seeds
+pairs LOCAL_HOTSPOT STATIC_BPLUS,True,10
+pairs LOCAL_HOTSPOT PERIODIC_GLOBAL_REBUILD,True,10
+pairs LOCAL_HOTSPOT THRESHOLD_GLOBAL_REBUILD,True,10
+pairs LOCAL_HOTSPOT LOCAL_COST_ADAPTIVE,True,10
+pairs LOCAL_HOTSPOT LARS_NO_DIAGNOSIS,True,10
+pairs LOCAL_HOTSPOT LARS_NO_LOCALITY,True,10
+pairs LOCAL_HOTSPOT LARS_NO_RUNTIME_VALIDATION,True,10
+pairs LOCAL_HOTSPOT LARS_NO_ROLLBACK,True,10
+pairs MIXED STATIC_BPLUS,True,10
+pairs MIXED PERIODIC_GLOBAL_REBUILD,True,10
+pairs MIXED THRESHOLD_GLOBAL_REBUILD,True,10
+pairs MIXED LOCAL_COST_ADAPTIVE,True,10
+pairs MIXED LARS_NO_DIAGNOSIS,True,10
+pairs MIXED LARS_NO_LOCALITY,True,10
+pairs MIXED LARS_NO_RUNTIME_VALIDATION,True,10
+pairs MIXED LARS_NO_ROLLBACK,True,10
+pairs READ_HEAVY STATIC_BPLUS,True,10
+pairs READ_HEAVY PERIODIC_GLOBAL_REBUILD,True,10
+pairs READ_HEAVY THRESHOLD_GLOBAL_REBUILD,True,10
+pairs READ_HEAVY LOCAL_COST_ADAPTIVE,True,10
+pairs READ_HEAVY LARS_NO_DIAGNOSIS,True,10
+pairs READ_HEAVY LARS_NO_LOCALITY,True,10
+pairs READ_HEAVY LARS_NO_RUNTIME_VALIDATION,True,10
+pairs READ_HEAVY LARS_NO_ROLLBACK,True,10
+pairs SKEW_80_20 STATIC_BPLUS,True,10
+pairs SKEW_80_20 PERIODIC_GLOBAL_REBUILD,True,10
+pairs SKEW_80_20 THRESHOLD_GLOBAL_REBUILD,True,10
+pairs SKEW_80_20 LOCAL_COST_ADAPTIVE,True,10
+pairs SKEW_80_20 LARS_NO_DIAGNOSIS,True,10
+pairs SKEW_80_20 LARS_NO_LOCALITY,True,10
+pairs SKEW_80_20 LARS_NO_RUNTIME_VALIDATION,True,10
+pairs SKEW_80_20 LARS_NO_ROLLBACK,True,10
+pairs STRESS STATIC_BPLUS,True,10
+pairs STRESS PERIODIC_GLOBAL_REBUILD,True,10
+pairs STRESS THRESHOLD_GLOBAL_REBUILD,True,10
+pairs STRESS LOCAL_COST_ADAPTIVE,True,10
+pairs STRESS LARS_NO_DIAGNOSIS,True,10
+pairs STRESS LARS_NO_LOCALITY,True,10
+pairs STRESS LARS_NO_RUNTIME_VALIDATION,True,10
+pairs STRESS LARS_NO_ROLLBACK,True,10
+pairs WORKLOAD_SHIFT STATIC_BPLUS,True,10
+pairs WORKLOAD_SHIFT PERIODIC_GLOBAL_REBUILD,True,10
+pairs WORKLOAD_SHIFT THRESHOLD_GLOBAL_REBUILD,True,10
+pairs WORKLOAD_SHIFT LOCAL_COST_ADAPTIVE,True,10
+pairs WORKLOAD_SHIFT LARS_NO_DIAGNOSIS,True,10
+pairs WORKLOAD_SHIFT LARS_NO_LOCALITY,True,10
+pairs WORKLOAD_SHIFT LARS_NO_RUNTIME_VALIDATION,True,10
+pairs WORKLOAD_SHIFT LARS_NO_ROLLBACK,True,10
+pairs WRITE_HEAVY STATIC_BPLUS,True,10
+pairs WRITE_HEAVY PERIODIC_GLOBAL_REBUILD,True,10
+pairs WRITE_HEAVY THRESHOLD_GLOBAL_REBUILD,True,10
+pairs WRITE_HEAVY LOCAL_COST_ADAPTIVE,True,10
+pairs WRITE_HEAVY LARS_NO_DIAGNOSIS,True,10
+pairs WRITE_HEAVY LARS_NO_LOCALITY,True,10
+pairs WRITE_HEAVY LARS_NO_RUNTIME_VALIDATION,True,10
+pairs WRITE_HEAVY LARS_NO_ROLLBACK,True,10
+main follow-up classification,True,"{'SUSTAINED_IMPROVEMENT': 21, 'RIGHT_CENSORED': 14}"
+main attempts,True,81
+main footprint medians,True,59 relocated records; 3 reported leaves
+main footprint totals,True,4767 relocations; 249 leaf touches
+boundary rollback count,True,30/46 rollbacks
+no-rollback failed retained,True,44
+ycsb table counts,True,"[90, 2700, 20, 0]"
+ycsb no trials,True,no action-performance evidence
+independent YCSB median YCSB_A,True,-16.42433222259256
+independent YCSB median YCSB_B,True,-14.047622703035044
+independent YCSB median YCSB_E,True,-28.629029751250265

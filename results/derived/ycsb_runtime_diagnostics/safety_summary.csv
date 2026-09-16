@@ -1,0 +1,4 @@
+workload,full_runs,observation_windows,degraded_windows,degraded_window_rate_pct,persistent_triggers,diagnosis_attempts,abstentions,candidate_selections,trial_starts,commits,rollbacks
+YCSB_A,10,672,41,6.101190476190476,7,7,7,0,0,0,0
+YCSB_B,10,672,39,5.803571428571429,13,13,13,0,0,0,0
+YCSB_E,10,679,0,0.0,0,0,0,0,0,0,0

@@ -1,0 +1,41 @@
+package edu.jouf.larsbplus.lars;
+
+import edu.jouf.larsbplus.core.BPlusTree;
+
+public record AdaptationEvent(
+        long sequence,
+        long regionId,
+        long eventOperationIndex,
+        long actionOperationIndex,
+        long trialStartOperation,
+        long trialEndOperation,
+        long commitOperationIndex,
+        long triggerWindowSequence,
+        Diagnosis diagnosis,
+        BPlusTree.LocalAction action,
+        String outcome,
+        String reason,
+        int fromLeaf,
+        int toLeaf,
+        int recordsMoved,
+        int leavesTouched,
+        double movedRecordFraction,
+        double touchedLeafFraction,
+        double regionExposureFraction,
+        double predictedBenefitNanos,
+        double estimatedActionCostNanos,
+        double safetyAdjustedCostNanos,
+        double predictedBreakEvenOperations,
+        long actionNanos,
+        int trialOperations,
+        int comparableTrialSamples,
+        double baselineObjectiveNanos,
+        double candidateObjectiveNanos,
+        double baselineP99Nanos,
+        double candidateP99Nanos,
+        String baselineOperationMix,
+        String trialOperationMix,
+        double rawGain,
+        double netGain,
+        double operationMixDrift
+) {}

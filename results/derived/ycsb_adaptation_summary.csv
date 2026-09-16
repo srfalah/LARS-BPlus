@@ -1,0 +1,4 @@
+workload,observation_windows,degraded_windows,persistent_triggers,diagnosis_attempts,confident_diagnoses,candidate_selections,trial_starts,commits,rollbacks,rollback_rate,abstentions,slacken_attempts,compact_attempts,records_moved,leaves_touched,median_moved_record_fraction,maximum_moved_record_fraction,median_touched_leaf_fraction,maximum_touched_leaf_fraction,action_nanos
+YCSB_A,672,41,7,7,0,0,0,0,0,0.0,7,0,0,0,0,,,,,0
+YCSB_B,672,39,13,13,0,0,0,0,0,0.0,13,0,0,0,0,,,,,0
+YCSB_E,679,0,0,0,0,0,0,0,0,0.0,0,0,0,0,0,,,,,0

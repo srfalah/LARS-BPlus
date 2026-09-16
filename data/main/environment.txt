@@ -1,0 +1,18 @@
+timestamp_utc=2026-09-13T22:57:12.741067700Z
+profile=PUBLICATION
+campaign.focus=full
+java.version=21.0.12.1
+java.vendor=Azul Systems, Inc.
+java.vm.name=OpenJDK 64-Bit Server VM
+os.name=Windows 11
+os.version=10.0
+os.arch=amd64
+available.processors=16
+max.heap.bytes=4215275520
+child.heap=4g
+initial.records=1000000
+measured.operations=300000
+warmup.operations=100000
+repetitions=10
+lars.config=LarsConfig[observationOperationsPerRegion=1024, persistenceWindows=2, referenceWarmupWindows=2, minSamplesPerOperationType=16, latencySampleStride=8, stableReferenceAlpha=0.1, degradationThreshold=0.12, diagnosisThreshold=0.15, diagnosisMargin=0.03, minRepairLeaves=2, maxRepairLeaves=6, maxMovedRecordFraction=0.05, maxTouchedLeafFraction=0.05, benefitHorizonOperations=20000, estimatedRecordMoveNanos=40.0, estimatedLeafTouchNanos=250.0, costSafetyFactor=1.15, trialOperations=512, maxTrialOperations=1536, minimumNetGain=0.03, p99Tolerance=0.1, maxOperationMixDrift=0.3, cooldownWindows=2, structuralEvidenceThreshold=0.05, insertLatencyWeight=0.45, splitRateWeight=0.35, headroomWeight=0.2, scanLatencyWeight=0.25, scanAmplificationWeight=0.55, sparsityWeight=0.2]
+gc=G1

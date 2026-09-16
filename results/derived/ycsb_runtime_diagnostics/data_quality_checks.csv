@@ -1,0 +1,14 @@
+check,status,evidence
+run row count,PASS,"observed=90, expected=90"
+unique run key,PASS,duplicate workload/variant/seed keys=0
+balanced 3x3x10 matrix,PASS,"cells=9, min=10, max=10"
+paired seeds,PASS,all three variants use the same ten seeds per workload
+primary metric validity,PASS,"no missing, non-finite, or non-positive values"
+trial lifecycle,PASS,"trial starts=0, terminals=0"
+epoch row count,PASS,"observed=2700, expected=2700"
+unique epoch key,PASS,duplicate epoch keys=0
+complete epochs per run,PASS,"min=30, max=30"
+epoch operation reconciliation,PASS,"per-run sum min=300000, max=300000"
+unique event key,PASS,duplicate event keys=0
+post-COMMIT consistency,PASS,"post rows=0, commits=0"
+YCSB-E generator parity,PASS,maximum final-record spread across variants for a paired seed=0
